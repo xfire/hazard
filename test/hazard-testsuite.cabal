@@ -1,0 +1,18 @@
+name:           hazard-testsuite
+version:        0.0.1
+build-type:     Simple
+cabal-version:  >= 1.6
+
+Executable testsuite
+  hs-source-dirs:  ../src suite
+  main-is:         TestSuite.hs
+
+  build-depends:
+    base,
+    QuickCheck >= 2.4,
+    HUnit >= 1.2 && < 2,
+    test-framework >= 0.4,
+    test-framework-hunit >= 0.2.6,
+    test-framework-quickcheck2 >= 0.2.10
+    
+  ghc-options: -O2 -Wall -fwarn-tabs
