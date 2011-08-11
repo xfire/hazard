@@ -1,7 +1,7 @@
 name:                hazard
 version:             0.0.1
 synopsis:            simple and easy static web site generator
-description:         ..
+description:         <TODO>
 homepage:            https://github.com/xfire/hazard
 bug-reports:         https://github.com/xfire/hazard/issues
 license:             OtherLicense
@@ -22,3 +22,7 @@ library
   exposed-modules:   Hazard,
                      Hazard.Main
   -- Other-modules:       
+
+source-repository head
+  type:              git
+  location:          git@github.com:xfire/hazard.git
