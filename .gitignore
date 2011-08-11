@@ -1,4 +1,5 @@
-dist
+dist/
+.hpc/
 *.o
 *.hi
 *.chi

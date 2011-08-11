@@ -15,4 +15,4 @@ Executable testsuite
     test-framework-hunit >= 0.2.6,
     test-framework-quickcheck2 >= 0.2.10
     
-  ghc-options: -O2 -Wall -fwarn-tabs
+  ghc-options: -O2 -Wall -fwarn-tabs -fhpc
