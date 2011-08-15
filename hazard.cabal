@@ -18,9 +18,11 @@ data-files:          LICENSE
 
 library
   hs-source-dirs:    src
-  build-depends:     base
+  build-depends:     base,
+                     filepath,
+                     directory
   exposed-modules:   Hazard,
-                     Hazard.Main
+                     Hazard.Core
   -- Other-modules:       
 
 source-repository head

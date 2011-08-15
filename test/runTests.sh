@@ -7,6 +7,7 @@ if [ -z "$DEBUG" ]; then
 fi
 
 SUITE="./dist/build/testsuite/testsuite"
+rm -f testsuite.tix
 
 cabal build && $SUITE -j1
 
@@ -22,4 +23,3 @@ case $1 in
     ;;
 esac
 
-rm -f testsuite.tix

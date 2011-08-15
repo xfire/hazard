@@ -1,5 +1,5 @@
 module Hazard (
-    module Hazard.Main
+    module Hazard.Core
 ) where
 
-import Hazard.Main
+import Hazard.Core

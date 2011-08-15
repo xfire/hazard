@@ -1,6 +1,8 @@
 dist/
+test/output/
 .hpc/
 *.o
 *.hi
 *.chi
 *.chs.h
+*.tix
